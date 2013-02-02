@@ -1,21 +1,21 @@
 # This is the default format. 
 # For more see: https://github.com/mojombo/jekyll/wiki/Permalinks
-#permalink: /:categories/:year/:month/:day/:title 
-permalink: /:title 
-exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
-auto: true
-pygments: true
+# permalink: /:categories/:year/:month/:day/:title 
+	permalink: /:title 
+	exclude: [".rvmrc", ".rbenv-version", "README.md", "Rakefile", "changelog.md"]
+	auto: true
+	pygments: true
 
 # Themes are encouraged to use these universal variables 
 # so be sure to set them if your theme uses them.
 #
-title : alon's blog
-tagline: Site Tagline
-author : alon
-name : alon
-email : longchi177@gmail.com
-github : alon1988
-twitter : twitter/1988lc
+	title: alon's blog
+	tagline: Site Tagline
+	author:
+		name: alon
+		email: longchi177@gmail.com
+		github: alon1988
+		twitter: twitter/1988lc
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -26,7 +26,7 @@ twitter : twitter/1988lc
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 #production_url : http://username.github.com
-production_url :	http://alon1988.github.com
+	production_url :	http://alon1988.github.com
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
