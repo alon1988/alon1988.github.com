@@ -11,11 +11,11 @@ pygments: true
 #
 title : alon's blog
 tagline: Site Tagline
-author :
-  name : alon
-  email : longchi177@gmail.com
-  github : alon1988
-  twitter : twitter/1988lc
+author : alon
+name : alon
+email : longchi177@gmail.com
+github : alon1988
+twitter : twitter/1988lc
 
 # The production_url is only used when full-domain names are needed
 # such as sitemap.txt 
@@ -26,7 +26,7 @@ author :
 # Finally if you are pushing to a GitHub project page, include the project name at the end.
 #
 #production_url : http://username.github.com
-production_url :	alon1988.github.com
+production_url :	http://alon1988.github.com
 # All Jekyll-Bootstrap specific configurations are namespaced into this hash
 #
 JB :
