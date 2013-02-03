@@ -803,13 +803,25 @@ ol ol,
 ol ul {
   margin-bottom: 0;
 }
+/*nav style*/
+.head-nav {
+  margin-left: 0;
+  margin-bottom: 18px;
+  list-style: none;
+}
+.head-nav ul {
+  display: block;
+}
+.head-nav li {
+  display: inline-block;
+  margin-top: 9px;
+  padding-right: 16px;
+  font-size: 17px;
+  color: #999999;
+}
 
 li {
   line-height: 20px;
-}
-
-li nav{
-	display:inline-block;
 }
 
 ul.unstyled,
