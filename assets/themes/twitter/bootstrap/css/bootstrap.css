@@ -808,6 +808,10 @@ li {
   line-height: 20px;
 }
 
+li nav{
+	display:inline-block;
+}
+
 ul.unstyled,
 ol.unstyled {
   margin-left: 0;
