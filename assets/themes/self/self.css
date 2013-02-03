@@ -1,0 +1,20 @@
+/**
+*This is the style out of the bootstrap
+*
+*/
+/*nav style*/
+.head-nav {
+  margin-left: 0;
+  margin-bottom: 18px;
+  list-style: none;
+}
+.head-nav ul {
+  display: block;
+}
+.head-nav li {
+  display: inline-block;
+  margin-top: 9px;
+  padding-right: 16px;
+  font-size: 17px;
+  color: #999999;
+}
