@@ -1,6 +1,50 @@
 ---
-theme :
-  name : twitter
+title: Alon's Blog
 ---
 {% include JB/setup %}
-{% include themes/twitter/default.html %}
+<!DOCTYPE html>
+<html>
+  <head>
+    <meta http-equiv="content-type" content="text/html; charset="utf-8">
+    <title>{{ page.title }}</title>
+    <!-- Le styles -->
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap.css" rel="stylesheet">
+    <link href="{{ ASSET_PATH }}/bootstrap/css/bootstrap-responsive.css" rel="stylesheet">
+  </head>
+
+  <body>
+		<div class="container">
+      <div class="row">
+        <!-- Title -->
+        <div class="span7 offset2">
+          <div class="page-header">
+            <h1 class="head-title"><a class="head-title" href="{{ site.production_url }}">{{ site.title }}</a> <br /></h1>
+            <h3 class="head-title"><small>{{ site.tagline }}</small></h3>
+          </div>
+        </div>
+        <!-- Navigation -->
+        <div class="span7 offset2">
+          <ul class="head-nav">
+            {% assign pages_list = site.pages %}
+            {% assign group = 'navigation' %}
+            {% include JB/pages_list %}
+          </ul>
+        </div>
+      </div>
+    </div> <!-- /container -->
+    
+    <div class="container">
+      <div class="row">
+        <div class="span8">
+           {{content}}                                   
+        </div>
+        <div class="span4 sidebar">                    
+            {% include sidebar/about.html %}
+            {% include sidebar/recent.html %}
+            {% include sidebar/comments.html %}
+        </div>
+      </div>
+    </div>
+    {% include JB/analytics %}
+  </body>
+</html>
