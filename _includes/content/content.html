@@ -1,6 +1,6 @@
-{% for node in pages_list %}
-  <h3>{{page.title}}</h3>
+{% for post in site.posts limit:4 %}
+  <h3>{{post.title}}</h3>
 	<p>
-	{{page.content}}
+	{{post.content}}
 	<p>
 {% endfor %}
